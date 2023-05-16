@@ -3,7 +3,7 @@
 #include "Observer.h"
 #include <vector>
 #include <QObject>
-#include "MyFile.h"
+
 
 class Subject: public QObject //класс, отслеживающий наблюдателей
 {         Q_OBJECT
