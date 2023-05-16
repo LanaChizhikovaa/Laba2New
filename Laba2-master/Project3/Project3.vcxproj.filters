@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ConcreteSubject.h" />
+    <ClInclude Include="MyFile.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="Subject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Lab_2.pro" />
+    <None Include="Lab_2.pro.user" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyFile.cpp" />
+    <ClCompile Include="Subject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TestFile1.txt" />
+    <Text Include="TestFile2.txt" />
+  </ItemGroup>
+</Project>
