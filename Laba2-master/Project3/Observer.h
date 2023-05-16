@@ -1,12 +1,13 @@
 #ifndef OBSERVER_H
 #define OBSERVER_H
-
+#include <QObject>
 #include <string>
 
 using namespace std;
 
 
-class Observer //интерфейс наблюдателя
+class Observer: public QObject //интерфейс наблюдателя
+    Q_OBJECT
 {
 public:
     virtual void UpdateExist (bool exist) = 0; //обновление существования файла (чистая виртуальная функция)
