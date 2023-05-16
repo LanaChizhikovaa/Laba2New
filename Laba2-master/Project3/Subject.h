@@ -12,6 +12,9 @@ class Subject: public QObject //класс, отслеживающий набл�
   public:
     void Attach (Observer*file_); //добавить в отслеживаемые
     void Detach (Observer*file_); //убрать из отслеживаемых
+  signals:
+    void SignalExist (bool exist_);
+    void SignalSize (int size_);
     //void NotifyExist (bool exist_); //изменить существование и уведомить об изменении
     //void NotifySize (int size_); //изменить размер и уведомить об изменении
 };
