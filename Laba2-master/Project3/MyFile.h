@@ -13,6 +13,7 @@ private:
 public:
     MyFile (string path_); //конструктор 
     string getPath () {return path;}  //геттер для пути к файлу
+public slots:    
     void UpdateExist (bool exist_); //установить существование
     void UpdateSize (int size_); //установить размер
 };
