@@ -2,7 +2,7 @@
 #include <thread>
 #include <iostream>
 #include <fstream>
-
+#include "MyFile.h"
 #include "ConcreteSubject.h"
 #include "Observer.h"
 
