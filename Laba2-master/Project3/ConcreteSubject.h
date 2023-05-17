@@ -12,15 +12,15 @@ public:
     void ChangeSize (int size_); //изменить размер
 };
 
-void ConcreteSubject::ChangeExist(bool exist_)
-{
-    NotifyExist(exist_);
-}
+// void ConcreteSubject::ChangeExist(bool exist_)
+// {
+//     NotifyExist(exist_);
+// }
 
-void ConcreteSubject::ChangeSize(int size_)
-{
-    NotifySize (size_);
-}
+// void ConcreteSubject::ChangeSize(int size_)
+// {
+//     NotifySize (size_);
+// }
 
 
 #endif // ConcreteSubject_H
