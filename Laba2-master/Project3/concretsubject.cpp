@@ -2,7 +2,7 @@
 
 void ConcreteSubject::ChangeExist(bool exist_)
 {
-     emit Subject::SignalExist(exist_);
+     emit Subject::SignalExist(exist_);   //испускаем сигнал
 }
 
 void ConcreteSubject::ChangeSize(int size_)
